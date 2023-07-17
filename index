@@ -1,0 +1,62 @@
+<DOCTYPE! html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>ПРИКОЛЬНО, ЭТО РАБОТАЕТ</title>
+   <style>
+   .colortext {
+     color: green;
+   }
+  </style>
+ </head>
+ <body>
+  <h1>попробую вмонтировать самый крупный заголовок</h1>
+  <h3>средний</h3>
+  <h6>и самый мелкий))</h6>
+  <div><b><em>Тут</b></em> должно быть какое-то содержание, но я его потом добавлю. И кнопочки всякие. <br/>Нужно будет придумать дропдауны  <span class="colortext">разноцветные</span>, и хидден радио баттоны</div>
+  <div><span class="colortext">так вообще круто будет!</span></div>
+  <div><del>а может и нет</del></div>
+  <div><i><u>формула успеха<i><u>:</div>
+  <p>X<sub>i</sub> = Y<sup><small>2</small></sup> + Z<sup><small>2</small></sup></p>
+     <p>
+                <input type="radio" value="man" checked name="gender"/>мужской
+            </p>
+            <p>
+                <input type="radio" value="woman" name="gender"/>женский
+            </p>
+            <h2>Выберите технологию</h2>
+            <p>
+                <input type="radio" value="html5" checked name="tech"/>HTML5
+            </p>
+            <p>
+                <input type="radio" value="net" name="tech"/>.NET
+            </p>
+            <p>
+                <input type="radio" value="java" name="tech"/>Java
+            </p>
+            <p>
+                <button type="submit">Отправить</button>
+     </p>
+<label for="favcolor">Выберите цвет, но при этом я еще пытаюсь впушить изменения</label>
+<input type="color" list="colors" id="favcolor" name="favcolor" />
+<datalist id="colors">
+    <option value="#0000FF" label="blue">
+    <option value="#008000" label="green">
+    <option value="#ff0000" label="red">
+</datalist>
+<table>
+            <tr>
+                <td>Модель</td> <td>Компания</td> <td>Цена</td>
+            </tr>
+            <tr>
+                <td>Nexus 6P</td> <td>Huawei</td> <td>49000</td>
+            </tr>
+            <tr>
+                <td>iPhone 6S PLus</td> <td>Apple</td> <td>62000</td>
+            </tr>
+            <tr>
+                <td>Lumia 950 XL</td> <td>Microsoft</td> <td>35000</td>
+            </tr>
+        </table>
+ </body>
+</html>
